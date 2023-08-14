@@ -1,4 +1,5 @@
 <html>
+
   <head>
     <title>OpenTF Foundation</title>
 
@@ -6,100 +7,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="robots" content="index" />
 
-    <meta name="description" content="The OpenTF Foundation. Supporting an impartial, open, and community-driven Terraform." />
+    <meta name="description"
+      content="The OpenTF Foundation. Supporting an impartial, open, and community-driven Terraform." />
 
     <link rel="canonical" href="/" />
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+
   <body>
     <div class="container mx-auto">
       <h1>The OpenTF Manifesto</h1>
 
       <div>
         <p>
-          On August 10th, 2023 a single decision was made which took the DevOps
-          world by surprise. A previously benevolent guardian of an open source
-          project called Terraform decided to relicense their project to new
-          vague terms which effectively put any player in the ecosystem at their
-          mercy.
+          Terraform was open-sourced in 2014 under an MPL license. Over the next ~9 years,
+          it built up a community that included thousands of users, contributors, customers,
+          certified practitioners, vendors, and an ecosystem of open-source modules, plugins,
+          libraries, and extensions.
+
+          Then, on August 10th, 2023, with no advance notice and no chance for the community
+          to have any input, HashiCorp switched Terraform to a non-open-source BSL license.
+          This change threatens the entire Terraform community and ecosystem.
+        </p>
+
+        <p class="font-bold">
+          Our concern: the BSL license is a poison pill for Terraform.
         </p>
 
         <p>
-          And with that, millions of lines of Terraform code became legacy
-          overnight. Tens of thousands of businesses, ranging from one-man shops
-          to the Fortune 500 woke up to a new reality where the underpinnings of
-          their cloud presence suddenly became a legal risk. Thousands of people,
-          often deep in love with Terraform, found themselves in a position
-          where their hard-earned skills are in danger of becoming irrelevant.
+          Overnight, tens of thousands of businesses, ranging from one-person shops to the
+          Fortune 500, woke up to a new reality where the underpinnings of their infrastructure
+          suddenly became a potential legal risk. The legal terms in the BSL license are vague,
+          and now every company, vendor, and developer using Terraform has to wonder whether
+          what they are doing could be construed as competitive with HashiCorp. And even if you
+          might be in the clear now, how can you build confidence that your usage won't violate
+          the license terms in the future? What if your products or HashiCorp's products change?
+          What if HashiCorp changes how they interpret competitive? What if they change the
+          license again? As a result, everything that uses Terraform is on shaky ground.
         </p>
 
         <p>
-          It is clear that under the new license the thriving Terraform
-          ecosystem will dwindle and wither. Existing codebases will turn into
-          liabilities, independent tooling will all but disappear, and existing
-          users will be forced into a monopoly with no vested interest in
-          quality or innovation.
+          It is clear that under the new license, the thriving Terraform ecosystem will dwindle
+          and wither. As developers consider what tools to learn and what ecosystems to contribute
+          to, and as companies consider what tools to use to manage their infrastructure, more and more,
+          they'll pick alternatives that are genuinely open-source without the licensing uncertainty.
+          Existing Terraform codebases will turn into liabilities, independent tooling will all but
+          disappear, and the Terraform community will fracture and disappear.
         </p>
 
         <p>
-          The main difference between HashiCorp products like Vault or Waypoint
-          that are no longer open source and Terraform is plain and simple. At
-          its heart, Terraform is not a product. It’s a language. Much like the
-          language it’s built on - Go. Imagine an alternate reality where the
-          corporate sponsor behind Go decides to relicense the compiler only to
-          allow writing software that does not negatively impact its bottom
-          line.
+          This sort of change not only fractures the Terraform community but it also harms all similar
+          open-source projects. Every company and every developer now needs to think twice before
+          adopting and investing in an open-source project in case the creator suddenly decides to change
+          the license. Imagine if the creators of Linux or Kubernetes suddenly switched to a non-open-source
+          license that only permitted non-competitive usage.
+
+          Would you still risk running your production software using those tools?
         </p>
 
         <p>
-          Or take Kubernetes, again built on top of Go. What
-          would the reality look like if its original corporate backer one day
-          decided you could only run it in production on top of their public
-          cloud?
+          This is why the building blocks of the modern Internet, such as Linux and Kubernetes, are handed over
+          to impartial bodies (the Linux Foundation and the Cloud Native Computing Foundation, respectively) who
+          can ensure that those building blocks can form solid and predictable underpinnings for our industry.
+        </p>
+
+        <p class="font-bold">
+          Our goal: ensure Terraform is handed over to an open source foundation.
         </p>
 
         <p>
-          There is a reason why the building blocks of the modern Internet are
-          handed over to impartial bodies who can ensure that they become solid
-          and predictable underpinnings of our industry. This situation is no
-          different. As a community, we can take responsibility for our path.
-        </p>
-
-        <p>
-          Properly supporting one of the main building blocks of the public
-          cloud will take time, skill, effort, and coordination. To this end,
-          this is a pledge to pool our resources and build a more open, more
-          inclusive future on the fundament we’ve already collectively
-          created. As current backers we pledge to put our efforts and resources
-          behind building a project that is:
+          In particular, we want to create a foundation for Terraform that is:
         </p>
 
         <ul>
           <li>
-            impartial - so that useful features and fixes are accepted
+            Truly open source - under a well-known and widely-accepted license that companies can trust,
+            that won't suddenly change in the future, and isn't subject to the whims of a single vendor
+          </li>
+          <li>
+            Community-driven - so that the community governs the project for the community, where pull
+            requests are regularly reviewed and accepted on their merit
+          </li>
+          <li>
+            Impartial - so that valuable features and fixes are accepted based on their value to the community,
             regardless of their impact on any particular vendor
           </li>
           <li>
-            community-driven - so that the project is governed by
-            the community for the community, where pull requests are regularly
-            reviewed and accepted on their merit
-          </li>
-          <li>
-            layered and modular - with a programmer-friendly project structure
+            Layered and modular - with a programmer-friendly project structure
             to encourage building on top, enabling a new vibrant ecosystem of
             tools and integrations
           </li>
           <li>
-            backwards-compatible - so that the existing code can drive value for
-            years to come;
+            Backwards-compatible - so that the existing code can drive value for years to come
           </li>
         </ul>
 
         <p class="font-bold">
-          We ask HashiCorp to do right by the community and donate Terraform to
-          a reputable foundation where, together with the community and
-          resources that we pledge, we continue to build and maintain this
-          amazing ecosystem.
+          Our request of HashiCorp: donate Terraform to this foundation.
+        </p>
+
+        <p>
+          We ask HashiCorp to do the right thing by the community: instead of going forward with the
+          BSL license change, donate Terraform to this foundation, and keep it under a genuinely open-source
+          license. Instead of fracturing the community, we end up with a single, impartial, reliable home for
+          Terraform where the whole community can unite to keep building this amazing ecosystem.
+        </p>
+
+        <p class="font-bold">
+          Our fallback plan: fork Terraform.
+        </p>
+
+        <p>
+          If HashiCorp is unwilling to donate Terraform to the foundation, we propose to fork Terraform and
+          maintain the fork in the foundation. Supporting a fork will take time, skill, effort, and coordination.
+
+          To this end, this pledge will pool our resources and build a more open, inclusive future for Terraform.
         </p>
 
         <h2>LIST OF PLEDGING COMPANIES AND PLEDGED RESOURCES:</h2>
@@ -107,26 +129,44 @@
         <p>
           If you’re willing to join our cause, please sign the manifesto by
           <a href="https://github.com/opentffoundation/manifesto">creating a
-          PR</a> and adding yourself at the bottom of this page and optionally
+            PR</a> and adding yourself at the bottom of this page and optionally
           let us know how you’d like to help, either as an individual or as an
-          organization. If you have questions or are a member of the press,
+          organization.
+        </p>
+        
+        <h2>Press Contact</h2>
+
+        <p>
+          If you have questions or are a member of the press,
           you may contact us at <a href="mailto:pledge@opentf.org">pledge@opentf.org</a>.
         </p>
 
         <h2>Pledges</h2>
 
         <!-- Sharingbutton Twitter -->
-        <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=I%20support%20the%20OpenTF%20manifesto%20to%20preserve%20an%20impartial%20and%20community-driven%20path%20for%20Terraform.%20%23opentf&amp;url=https%3A%2F%2Fopentf.org" target="_blank" rel="noopener" aria-label="">
-          <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+        <a class="resp-sharing-button__link"
+          href="https://twitter.com/intent/tweet/?text=I%20support%20the%20OpenTF%20manifesto%20to%20preserve%20an%20impartial%20and%20community-driven%20path%20for%20Terraform.%20%23opentf&amp;url=https%3A%2F%2Fopentf.org"
+          target="_blank" rel="noopener" aria-label="">
+          <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
+              </svg>
             </div>
           </div>
         </a>
 
         <!-- Sharingbutton LinkedIn -->
-        <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fopentf.org&amp;title=I%20support%20the%20OpenTF%20manifesto%20to%20preserve%20an%20impartial%20and%20community-driven%20path%20for%20Terraform.%20%23opentf&amp;summary=I%20support%20the%20OpenTF%20manifesto%20to%20preserve%20an%20impartial%20and%20community-driven%20path%20for%20Terraform.%20%23opentf&amp;source=https%3A%2F%2Fopentf.org" target="_blank" rel="noopener" aria-label="">
-          <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+        <a class="resp-sharing-button__link"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fopentf.org&amp;title=I%20support%20the%20OpenTF%20manifesto%20to%20preserve%20an%20impartial%20and%20community-driven%20path%20for%20Terraform.%20%23opentf&amp;summary=I%20support%20the%20OpenTF%20manifesto%20to%20preserve%20an%20impartial%20and%20community-driven%20path%20for%20Terraform.%20%23opentf&amp;source=https%3A%2F%2Fopentf.org"
+          target="_blank" rel="noopener" aria-label="">
+          <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z" />
+              </svg>
             </div>
           </div>
         </a>
@@ -139,7 +179,13 @@
           <li><a href="https://spacelift.io">Spacelift</a> - Cover the cost of 5 FTEs for at least 5 years</li>
           <li><a href="https://terrateam.io">Terrateam</a> - Development; Open-source community efforts</li>
         </ul>
+     
+
+        <p>
+          August 14th, 2023
+        </p>
       </div>
     </div>
   </body>
+
 </html>
