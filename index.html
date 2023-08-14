@@ -64,20 +64,26 @@
 
       <div>
         <p>
-          On August 10th, 2023 a single decision was made which took the DevOps
-          world by surprise. A previously benevolent guardian of an open source
-          language called Terraform decided to relicense their project to new
-          vague terms which effectively put any player in the ecosystem at their
-          mercy.
+          Terraform was open sourced in 2014 under an MPL license, and over the next ~9 
+          years, it built up a community that included thousands of users, contributors, 
+          customers, certified practictioners, and vendors, and an ecosystem of open source 
+          modules, plugins, libraries, and extensions. Then, on August 10th, 2023, with no 
+          advance notice, and no chance for the community to have any input, HashiCorp 
+          switched Terraform to a non open source BSL license. This change threatens the 
+          entire Terraform community and ecosystem. 
         </p>
 
         <p>
-          And with that, millions of lines of Terraform code became legacy
-          overnight. Tens of thousands of businesses, ranging from one-man shops
-          to the Fortune 500 woke up to a new reality where the underpinnings of
-          their cloud presence suddenly became a legal risk. Thousands of people,
-          often deep in love with the language, found themselves in a position
-          where their hard-earned skills are in danger of becoming irrelevant.
+          Overnight, tens of thousands of businesses, ranging from one-man shops
+          to the Fortune 500, woke up to a new reality where the underpinnings of
+          their infrastructure suddenly became a potential legal risk. The legal terms in
+          the BSL license are vague, and now every company, every vendor, and every 
+          developer who is using Terraform has to wonder whether what they are doing could
+          be construed as competitive with HashiCorp. And even if you might be in the clear now,
+          how can you build confidence that your usage won't violate the license terms in the future?
+          What if your products or HashiCorp's products change? What if HashiCorp changes how
+          they interpret competitive? What if they change the license again? As a result, everything
+          that uses Terraform is on shaky ground.  
         </p>
 
         <p>
@@ -85,51 +91,50 @@
           ecosystem will dwindle and wither. Existing codebases will turn into
           liabilities, independent tooling will all but disappear, and existing
           users will be forced into a monopoly with no vested interest in
-          quality or innovation.
+          quality or innovation. As companies consider what tools to use to manage their
+          infrastructure, more and more, they'll pick alternatives that are truly open source,
+          without all the licensing uncertainty, or home-grown alternatives those companyies control 
+          fully.
         </p>
 
         <p>
-          The main difference between HashiCorp products like Vault or Waypoint
-          that are no longer open source and Terraform is plain and simple. At
-          its heart, Terraform is not a product. It’s a language. Much like the
-          language it’s built on - Go. Imagine an alternate reality where the
-          corporate sponsor behind Go decides to relicense the compiler only to
-          allow writing software that does not negatively impact its bottom
-          line.
+          And this sort of change not only fractures the Terraform community, but it
+          also harms all similar open source projects. Every company and every 
+          developer now needs to think twice before adopting and investing in an open source
+          project in case the creator suddenly decides to change the license. Imagine if
+          the creators of Linux or Kubernetes suddenly switched to a non open source license that
+          only permitted non-competitive usages. Would you still risk running your production software 
+          using those tools?
         </p>
 
         <p>
-          Or take Kubernetes, again built on top of the same language. What
-          would the reality look like if its original corporate backer one day
-          decided you could only run it in production on top of their public
-          cloud?
+          This is why the building blocks of the modern Internet, such as Linux and Kubernetes, are 
+          handed over to impartial bodies (the Linux Foundaiton and the Cloud Native Computing 
+          Foundation, respectively) who can ensure that those building blocks can form solid and 
+          predictable underpinnings for our industry.
         </p>
 
+        <p class="font-bold">
+          Our goal: ensure Terraform is handed over to a foundation.
+        </h2>
+        
         <p>
-          There is a reason why the building blocks of the modern Internet are
-          handed over to impartial bodies who can ensure that they become solid
-          and predictable underpinnings of our industry. This situation is no
-          different. As a community, we can take responsibility for our path.
-        </p>
-
-        <p>
-          Properly supporting one of the main building blocks of the public
-          cloud will take time, skill, effort, and coordination. To this end,
-          this is a pledge to pool our resources and build a more open, more
-          inclusive future on the fundament we’ve already collectively
-          created. As current backers we pledge to put our efforts and resources
-          behind building a project that is:
+          In particular, we want to create a foundation for Terraform that is:
         </p>
 
         <ul>
           <li>
-            impartial - so that useful features and fixes are accepted
-            regardless of their impact on any particular vendor
+            truly open source - under a well-known and widely-accepted license that companies can trust, 
+            that won't suddenly change in the future, and isn't subject to the whims of a single vendor
           </li>
           <li>
             community-driven - so that the project is maintained and governed by
             the community for the community, where pull requests are regularly
             reviewed and accepted on their merit
+          </li>
+          <li>
+            impartial - so that useful features and fixes are accepted based on their value to the
+            community, regardless of their impact on any particular vendor
           </li>
           <li>
             layered and modular - with a programmer-friendly project structure
@@ -143,10 +148,25 @@
         </ul>
 
         <p class="font-bold">
-          We ask HashiCorp to do right by the community and donate Terraform to
-          a reputable foundation where, together with the community and
-          resources that we pledge, we continue to build and maintain this
-          amazing ecosystem.
+          Our request of HashiCorp: donate Terraform to this foundation.
+        </p> 
+        
+        <p>
+          We ask HashiCorp to do the right thing by the community and to donate Terraform to this foundation,
+          rather than going forward with the BSL license change. That way, instead of fracturing the community, 
+          we end up with a single, impartial, reliable home for Terraform where the whole community can come together 
+          to keep building this amazing ecosystem.
+        </p>        
+
+        <p class="font-bold">
+          Our fallback plan: fork Terraform.
+        </p>
+
+        <p>
+          If HashiCorp is unwilling to donate Terraform to the foundation, then we propose to fork Terraform, and 
+          to maintain the fork in the foundation. Supporting a fork will take time, skill, effort, and coordination. 
+          To this end, this is a pledge to pool our resources and build a more open, more inclusive future for 
+          Terraform.
         </p>
 
         <h2>LIST OF PLEDGING COMPANIES AND PLEDGED RESOURCES:</h2>
