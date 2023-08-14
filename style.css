@@ -10,11 +10,15 @@
   }
 }
 
-body {
-  color: rgb(75 85 99);
-  font-size: 1.5rem;
-  line-height: 2rem;
+html {font-size: 100%;} /*16px*/
 
+body {
+  background: white;
+  color: rgb(75 85 99);
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -24,6 +28,7 @@ div.container {
 }
 
 p {
+  margin-bottom: 1rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   text-align: justify;
@@ -39,14 +44,37 @@ li {
   margin-right: auto;
 }
 
-h1 {
-  text-align: center;
-  line-height: 3rem;
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
-h2 {
-  margin-top: 50px;
-  margin-bottom: 10px;
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.488rem;
+}
+
+h2 {font-size: 2.074rem;}
+
+h3 {font-size: 1.728rem;}
+
+h4 {font-size: 1.44rem;}
+
+h5 {font-size: 1.2rem;}
+
+small, .text_small {font-size: 0.833rem;}
+
+a {
+  color: #5569ff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .font-bold {
@@ -235,4 +263,15 @@ h2 {
 .resp-sharing-button--whatsapp:active {
   background-color: #1DA851;
   border-color: #1DA851;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(33 37 43);
+    color: rgb(228 228 228);
+  }
+
+  a {
+    color: #7b8bff;
+  }
 }
