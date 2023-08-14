@@ -19,6 +19,10 @@ body {
   padding-bottom: 2rem;
 }
 
+div.container {
+  padding: 0 0.5em 0 0.5em;
+}
+
 p {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
