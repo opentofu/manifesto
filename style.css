@@ -10,24 +10,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 body {
   color: rgb(75 85 99);
   font-size: 1.5rem;
@@ -40,6 +22,7 @@ body {
 p {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  text-align: justify;
 }
 
 li {
@@ -55,6 +38,11 @@ li {
 h1 {
   text-align: center;
   line-height: 3rem;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .font-bold {
