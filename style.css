@@ -275,3 +275,11 @@ a:hover {
     color: #7b8bff;
   }
 }
+
+.share-social-media {
+    display: flex;
+    flex-diraction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
