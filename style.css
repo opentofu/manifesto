@@ -40,6 +40,11 @@ h1 {
   line-height: 3rem;
 }
 
+h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
 .font-bold {
   font-weight: 700;
 }
