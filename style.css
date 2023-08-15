@@ -10,7 +10,11 @@
   }
 }
 
-html {font-size: 100%;} /*16px*/
+html {
+  font-size: 100%;
+}
+
+/*16px*/
 
 body {
   background: white;
@@ -44,7 +48,11 @@ li {
   margin-right: auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 3rem 0 1.38rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -57,15 +65,26 @@ h1 {
   font-size: 2.488rem;
 }
 
-h2 {font-size: 2.074rem;}
+h2 {
+  font-size: 2.074rem;
+}
 
-h3 {font-size: 1.728rem;}
+h3 {
+  font-size: 1.728rem;
+}
 
-h4 {font-size: 1.44rem;}
+h4 {
+  font-size: 1.44rem;
+}
 
-h5 {font-size: 1.2rem;}
+h5 {
+  font-size: 1.2rem;
+}
 
-small, .text_small {font-size: 0.833rem;}
+small,
+.text_small {
+  font-size: 0.833rem;
+}
 
 a {
   color: #5569ff;
@@ -102,7 +121,6 @@ a:hover {
 .resp-sharing-button__icon svg {
   width: 1em;
   height: 1em;
-  margin-right: 0.4em;
   vertical-align: top
 }
 
@@ -277,9 +295,19 @@ a:hover {
 }
 
 .share-social-media {
-    display: flex;
-    flex-diraction: row;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-diraction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.co-signed {
+  width:  100%;
+}
+
+.co-signed th, .co-signed td {
+  text-align: left;
+  padding:  5px;
 }
