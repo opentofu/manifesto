@@ -301,3 +301,13 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+
+.co-signed {
+  width:  100%;
+}
+
+.co-signed th, .co-signed td {
+  text-align: left;
+  padding:  5px;
+}
