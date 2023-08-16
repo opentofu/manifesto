@@ -4,6 +4,6 @@ OpenTF's goal is to ensure Terraform remains truly open source and proposes retu
 
 For further details and the full text of the manifesto, you can visit the [OpenTF website](https://opentf.org).
 
-# Contact
+## Contact
 
-If you have questions or feedback to share, you can reach the team behind this manifesto by emailing us at pledge@opentf.org. 
+If you have questions or feedback to share, you can reach the team behind this manifesto by emailing us at [pledge@opentf.org](mailto:pledge@opentf.org).
