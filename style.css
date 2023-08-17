@@ -296,7 +296,7 @@ a:hover {
 
 .share-social-media {
   display: flex;
-  flex-diraction: row;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
   align-items: center;
