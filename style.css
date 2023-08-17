@@ -326,3 +326,10 @@ figure blockquote {
   border-left: 2px solid #5569ff;
   padding: 1em;
 }
+
+.Info{
+  overflow-x: auto;
+}
+.Info::-webkit-scrollbar{
+  display: none;
+}
