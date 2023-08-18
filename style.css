@@ -326,3 +326,11 @@ figure blockquote {
   border-left: 2px solid #5569ff;
   padding: 1em;
 }
+
+span {
+  margin-right: 34px; /* Adjust as needed */
+}
+
+.count {
+  font-weight: bold;  /* Making numbers bold for emphasis */
+}
