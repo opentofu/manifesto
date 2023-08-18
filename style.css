@@ -296,7 +296,7 @@ a:hover {
 
 .share-social-media {
   display: flex;
-  flex-diraction: row;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -325,4 +325,19 @@ figure blockquote {
 figure blockquote {
   border-left: 2px solid #5569ff;
   padding: 1em;
+}
+
+span {
+  margin-right: 34px; /* Adjust as needed */
+}
+
+.count {
+  font-weight: bold;  /* Making numbers bold for emphasis */
+}
+
+.Info{
+  overflow-x: auto;
+}
+.Info::-webkit-scrollbar{
+  display: none;
 }
