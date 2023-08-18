@@ -296,7 +296,7 @@ a:hover {
 
 .share-social-media {
   display: flex;
-  flex-diraction: row;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -333,4 +333,11 @@ span {
 
 .count {
   font-weight: bold;  /* Making numbers bold for emphasis */
+}
+
+.Info{
+  overflow-x: auto;
+}
+.Info::-webkit-scrollbar{
+  display: none;
 }
