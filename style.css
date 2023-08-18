@@ -332,4 +332,12 @@ figure blockquote {
 }
 .Info::-webkit-scrollbar{
   display: none;
+=======
+span {
+  margin-right: 34px; /* Adjust as needed */
+}
+
+.count {
+  font-weight: bold;  /* Making numbers bold for emphasis */
+
 }

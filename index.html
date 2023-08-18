@@ -152,7 +152,7 @@
         </p>
 
         <p>
-          Join our <a href="https://www.reddit.com/r/opentf/">Reddit community</a>!
+          Join our <a href="https://www.reddit.com/r/opentf/">Reddit community</a> and <a href="https://twitter.com/opentforg">follow us on twitter</a>!
         </p>
 
         <h2>Share</h2>
@@ -222,7 +222,7 @@
           Can anyone pledge? <a href="#who-can-pledge"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5442 10.4558C11.8385 8.75022 9.07316 8.75022 7.36753 10.4558L4.27922 13.5442C2.57359 15.2498 2.57359 18.0152 4.27922 19.7208C5.98485 21.4264 8.75021 21.4264 10.4558 19.7208L12 18.1766" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M10.4558 13.5442C12.1614 15.2498 14.9268 15.2498 16.6324 13.5442L19.7207 10.4558C21.4264 8.75021 21.4264 5.98485 19.7207 4.27922C18.0151 2.57359 15.2497 2.57359 13.5441 4.27922L12 5.82338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg></a>
         </p>
         <p>
-          Yes, the pledge is open to both all individuals and all companies who care about the future of Terraform. You can also support this initiative by staring <a href="https://github.com/opentffoundation/manifesto" target="_blank">this manifesto repository on GitHub</a> and spreading the word via share buttons.
+          Yes, the pledge is open to both all individuals and all companies who care about the future of Terraform. You can also support this initiative by starring <a href="https://github.com/opentffoundation/manifesto" target="_blank">this manifesto repository on GitHub</a> and spreading the word via share buttons.
         </p>
 
         <p class="font-bold" id="regular-user">
@@ -398,6 +398,15 @@
         <div class="Info">
         <h3>Co-signed</h3>
 
+        <div id="output" class="share-social-media">
+          <span id="companyOutput">Companies: <span class="count">0</span></span>
+          <span id="projectOutput">Projects: <span class="count">0</span></span>
+          <span id="individualOutput">Individuals: <span class="count">0</span></span>
+        </div>
+        <br />
+        <!-- Script -->
+        <script src="count.js"></script>
+
         <table class="co-signed">
           <thead>
             <th>Name</th>
@@ -405,9 +414,7 @@
             <th>How you'd like to help</th>
           </thead>
           <tbody>
-
             <!-- Companies go below here -->
-
             <tr>
               <td><a href="https://gruntwork.io">Gruntwork</a></td>
               <td>Company</td>
@@ -761,7 +768,77 @@
               <td>Company</td>
               <td>Development; open-source community efforts</td>
             </tr>
-            
+            <tr>
+              <td><a href="https://sikalabs.com">SikaLabs</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.argodevops.co.uk">Argo DevOps Solutions Ltd</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://publicgood.foundation">PublicGood Foundation</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.datarabbit.ai">datarabbit.ai</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.improwised.com">Improwised Technologies</a></td>
+              <td>Company</td>
+              <td>Documentation; Testing; Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://teamhdc.com">Halcyon Days Consulting</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://foundata.com">foundata</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://bigboxhost.com">BigBox LLC</a></td>
+              <td>Company</td>
+              <td>Development; open-source community; Different IaaS stack deployment</td>
+            </tr>
+            <tr>
+	      <td><a href="https://redarcs.io">Red Arcs Consulting GmbH</a></td>
+              <td>Company</td>
+              <td>Development; open-source community</td>
+            </tr>
+            <tr>
+	      <td><a href="https://dynamicops.co">DynamicOps Limited</a></td>
+              <td>Company</td>
+              <td>Cloud Infrastructure; Security; Development</td>
+            </tr>
+            <tr>
+              <td><a href="https://safeinit.com">safeINIT</a></td>
+              <td>Company</td>
+              <td>Testing; open-source community efforts;</td>
+            </tr>
+            <tr>
+              <td><a href="https://webriot.com">WebRiot</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+	    <tr>
+              <td><a href="https://cloudcode.ai">Cloud Code AI</a></td>
+              <td>Company</td>
+              <td>Development; open-source community efforts;</td>
+            </tr>
+            <tr>
+              <td><a href="https://firework.com">Firework</a></td>
+              <td>Company</td>
+              <td>Testing; minor development; open-source community efforts;</td>
+            </tr>
+
             <!-- Projects go below here -->
 
             <tr>
@@ -793,6 +870,16 @@
               <td><a href="https://github.com/terraform-docs/terraform-docs">terraform-docs</a></td>
               <td>Project</td>
               <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://stacklet.io">Stacklet</a></td>
+              <td>Project</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+	    <tr>
+              <td><a href="https://theserverfault.com">theserverfault.com</a></td>
+              <td>Project</td>
+              <td>Development; open-source community efforts; Extension and Providers</td>
             </tr>
 
             <!-- Individuals go below here -->
@@ -1866,6 +1953,16 @@
               <td>Open-source community efforts; DevOps; Development; Helping companies adopt scalable Open Source IaC practices and tools</td>
             </tr>
             <tr>
+              <td><a href="https://lostnewbs.org">Lost Newbs</a></td>
+              <td>Foundation</td>
+              <td>Teaching Newbs</td>
+            </tr>
+            <tr>
+              <td><a href="https://gitlab.com/SurfingDoggo">SurfingDoggo</a></td>
+              <td>Individual</td>
+              <td>Instructional videos; Open-source community efforts; Terraform Contributor</td>
+            </tr>
+            <tr>
               <td><a href="https://github.com/ariel-weiss">Ariel Weiss</a></td>
               <td>Individual</td>
               <td>Open-source community efforts; Development</td>
@@ -1955,13 +2052,257 @@
               <td>Individual</td>
               <td>Development; DevOps; open-source community efforts</td>
             </tr>
+            <tr>
+              <td><a href="https://github.com/calvin-barker">Calvin Barker</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/saif-02">Sarfaraz Ahamed G</a></td>
+              <td>Individual</td>
+              <td>Documentation; DevOps; Testing</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/ondrejsika">Ondrej Sika</a></td>
+              <td>Individual</td>
+              <td>DevOps; Training; IaC and Terraform Advocate</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/o-sama">Osama Faqhruldin</a></td>
+              <td>Individual</td>
+              <td>SRE; Development; Architecture; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/sonykphilip">Sony K. Philip</a></td>
+              <td>Individual</td>
+              <td>DevSecOps/Cloud/Infra Consultant</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/kaczenski">Bernd-Kristian Kaczenski</a></td>
+              <td>Individual</td>
+              <td>Development; Documentation; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/adelinn">Adelin Niculae</a></td>
+              <td>Individual</td>
+              <td>DevOps; Cybersecurity</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/camilosantana">Camilo Santana</a></td>
+              <td>Individual</td>
+              <td>Documentation; Development; Testing; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/gtirloni">Giovanni Tirloni</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/tomdavidson">Tom Davidson</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/kaizen13">Emil Enchev</a></td>
+              <td>Individual</td>
+              <td>DevOps/Cloud; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/niranjan94">Niranjan Rajendran</a></td>
+              <td>Individual</td>
+              <td>Development; Terraform advocate; Testing; Cloud; Devops; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/rneiva">Raul Neiva</a></td>
+              <td>Individual</td>
+              <td>Development; DevOps; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/krzysztof-kotewa">Krzysztof Kotewa</a></td>
+              <td>Individual</td>
+              <td>Documentation; Development; Testing</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/erlisb">Erlis Balla</a></td>
+              <td>Individual</td>
+              <td>DevOps; Training; Testing</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/pmbauer">Paul Bauer</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/ScottS-byte">Scott Sanbeg</a></td>
+              <td>Individual</td>
+              <td>Development; DevOps; GitOps; IaC and Terraform</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/xneyder">Daniel Ejv</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/jhixson74">John Hixson</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.linkedin.com/in/akisakye/">Alex Kisakye</a></td>
+              <td>Individual</td>
+              <td>DevSecOps; Cloud; Infrastructure Specialist</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.linkedin.com/in/adrian-jarc">Adrian Jarc</a></td>
+              <td>Individual</td>
+              <td>Cloud engineer; Development</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/theurichde">Tim Heurich</a></td>
+              <td>Individual</td>
+              <td>Development; DevOps; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/DmitryMaletin">Dmitry Maletin</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/imusmanmalik">Usman Malik</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/mihneastaub">Mihnea Staub</a></td>
+              <td>Individual</td>
+              <td>DevOps; Development; open-source community efforts Development</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/jheyduk">Jörg Heyduk</a></td>
+              <td>Individual</td>
+              <td>DevOps; Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/rinzool">Quentin Fleurent Nambot</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/l-with">Lars With</a></td>
+              <td>Individual</td>
+              <td>DevOps; Cloud; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/angelstan">Angel Stankovski</a></td>
+              <td>Individual</td>
+              <td>DevOps; Cloud; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/ramonvermeulen">Ramon Vermeulen</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/saravanan30erd">Saravanan Palanisamy</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Saim-Safdar">Saim Safdar </a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/ksaurabhsinha">Kumar Saurabh Sinha</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Magnitus-">Eric Vallée</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/amirkhonov">Akbarkhon Amirkhonov</a></td>
+              <td>Individual</td>
+              <td>DevOps; IaC; Terraform;  open-source community efforts</td>
+              <tr>
+                <td><a href="https://github.com/resker/">Rob Esker</a></td>
+                <td>Individual</td>
+                <td>Development; Documentation; open-source community efforts</td>
+              </tr>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/qjoly">Quentin JOLY</a></td>
+              <td>Individual</td>
+              <td>Testing; GitOps; DevOps; IaC; CICD; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/pascal-hofmann">Pascal Hofmann</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/devbyaccident">Chris Blackden</a></td>
+              <td>Individual</td>
+              <td>DevOps; Documentation; Training; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/rory-hughes-cko">Rory Hughes</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/acehand">Anand Chandrasekaran</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/sir-david">Alfredo David Romero T.</a></td>
+              <td>Individual</td>
+              <td>Development; Platform Architecture; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/mbianchidev">Matteo Bianchi</a></td>
+              <td>Individual</td>
+              <td>Development; DevOps; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/timin">Nimit Jyotiana</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+      	    <tr>
+              <td><a href="https://github.com/khaledez">Khaled Ezzughayyar</a></td>
+              <td>Individual</td>
+              <td>Development; Documentation; DevOps; open-source community efforts</td>
+            </tr> 
+            <tr>
+              <td><a href="https://github.com/ngoyal16">Nitin Goyal</a></td>
+              <td>Individual</td>
+              <td>Development; DevOps; open-source community efforts</td>
+      	    </tr>
+            <tr>
+              <td><a href="https://github.com/cl1ntr0n">Clinton Santa Coloma</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+	          <tr>
+              <td><a href="https://github.com/kevin-fagan">Kevin Fagan</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/naitmare01">David Berndtsson</a></td>
+              <td>Individual</td>
+              <td>Development; open-source community efforts</td>
+            </tr>
           </tbody>
         </table>
 
         </div>
-
         <p>
-          August 17th, 2023
+          August 18th, 2023
         </p>
       </div>
     </div>
