@@ -334,3 +334,10 @@ span {
 .count {
   font-weight: bold;  /* Making numbers bold for emphasis */
 }
+
+.Info{
+  overflow-x: auto;
+}
+.Info::-webkit-scrollbar{
+  display: none;
+}
