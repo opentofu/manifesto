@@ -296,7 +296,7 @@ a:hover {
 
 .share-social-media {
   display: flex;
-  flex-diraction: row;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -304,10 +304,40 @@ a:hover {
 
 
 .co-signed {
-  width:  100%;
+  width: 100%;
 }
 
-.co-signed th, .co-signed td {
+.co-signed th,
+.co-signed td {
   text-align: left;
-  padding:  5px;
+  padding: 5px;
+}
+
+figure {
+  margin: 0;
+}
+
+figure figcaption,
+figure blockquote {
+  margin: 1em;
+}
+
+figure blockquote {
+  border-left: 2px solid #5569ff;
+  padding: 1em;
+}
+
+span {
+  margin-right: 34px; /* Adjust as needed */
+}
+
+.count {
+  font-weight: bold;  /* Making numbers bold for emphasis */
+}
+
+.Info{
+  overflow-x: auto;
+}
+.Info::-webkit-scrollbar{
+  display: none;
 }
