@@ -328,11 +328,11 @@ figure blockquote {
 }
 
 span {
-  margin-right: 34px; /* Adjust as needed */
+  margin-right: 20px; 
 }
 
 .count {
-  font-weight: bold;  /* Making numbers bold for emphasis */
+  font-weight: bold;
 }
 
 .Info{
