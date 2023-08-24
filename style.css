@@ -48,6 +48,10 @@ li {
   margin-right: auto;
 }
 
+.logo {
+  display: flex;
+}
+
 h1,
 h2,
 h3,
