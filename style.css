@@ -23,8 +23,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  padding-top: 2rem;
+  padding-top: 0rem;
   padding-bottom: 2rem;
+  margin-top: 0;
 }
 
 div.container {
@@ -50,6 +51,23 @@ li {
 
 .logo {
   display: flex;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.small-margin {
+  margin: 1.5rem 0 0;
+}
+
+.subtle-margin + .subtle-margin {
+  margin-top: -1rem;
+}
+
+.top-margin {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 h1,
@@ -344,4 +362,39 @@ span {
 }
 .Info::-webkit-scrollbar{
   display: none;
+}
+
+#blog {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.blog-post {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-post time {
+  font-style: italic;
+}
+
+.purple-banner {
+  display: block;
+  background-color: #8a2be2;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.purple-banner:hover {
+  background-color: purple;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
