@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>OpenTF Foundation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="robots" content="index" />
+
+    <meta name="description" content="The OpenTF Foundation. Supporting an impartial, open, and community-driven Terraform." />
+
+    <link rel="canonical" href="/announcement" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicons/android-chrome-512x512.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="twitter:title" content="OpenTF created a fork of Terraform!">
+    <meta property="twitter:description" content="Read the official announcement: opentf.org/announcement">
+    <meta property="twitter:image" content="https://opentf.org/images/og.png">
+    <meta property="twitter:url" content="opentf.org">
+    <meta property="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="OpenTF created a fork of Terraform!">
+    <meta property="og:description" content="Read the official announcement: opentf.org/announcement">
+    <meta property="og:url" content="opentf.org">
+    <meta property="og:image" content="https://opentf.org/images/og.png">
+    <meta property="og:type" content="website">
+    
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <a href="/">
+          <picture>
+              <source srcset="/images/on-dark%402x.png" media="(prefers-color-scheme: dark)">
+              <img width="342px" height="200px" src="/images/on-light%402x.png" class="logo mx-auto" alt="OpenTF Foundation">
+          </picture>
+      </a>
+
+      <section id="announcements">
+        <h2>OpenTF Announces Fork of Terraform</h2>
+        <article class="blog-post">
+          <p>Posted on: <time datetime="2023-08-25">August 25, 2023</time></p>
+          <p class="subtle-margin"> 
+            Two weeks ago, HashiCorp announced they are changing the license to all their core products, including Terraform, to the Business Source License (BSL). In an attempt to keep Terraform open source, we published the <a href="https://opentf.org/">OpenTF manifesto</a>, and the community response was huge! Over 100 companies, 10 projects, and 400 individuals pledged their time and resources to keep Terraform open-source. The <a href="https://github.com/opentffoundation/manifesto">GitHub repository</a> for the manifesto already has over 2.5k stars, and the number is growing quickly!
+          </p>
+          <p class="subtle-margin">
+            The manifesto outlined the intent of the OpenTF initiative in two steps — the first was to appeal to HashiCorp to return Terraform to the community and revert the license change they were making for this project. The second, in case the license was not reverted, was to fork the Terraform project as OpenTF.
+          </p>
+          <h4 class="small-margin">The time is now!</h4>
+          <p class="subtle-margin">
+            Since no reversal has been done, and no intent to do one has been communicated, we’re proud to announce that <b>we have created a fork of Terraform called OpenTF</b>. Many engineers across a number of companies, sometimes even competing companies, have been working together over the last week to make this possible. It’s been an incredible experience, really!
+          </p>
+          <p class="subtle-margin">
+            As outlined in our manifesto, we are keeping OpenTF:
+          </p>
+          <ul>
+            <li><b>Truly open source</b> - under a well-known and widely-accepted license that companies can trust, that won't suddenly change in the future
+            </li>
+            <li><b>Community-driven</b> - so that the community governs the project for the community, where pull requests are regularly reviewed and accepted on their merit and changes are proposed through a public RFC process
+            </li>
+            <li><b>Impartial</b> - so that valuable features and fixes are accepted based on their value to the community, regardless of their impact on any particular vendor
+            </li>
+            <li><b>Layered and modular</b> -  with a programmer-friendly project structure to encourage building on top, enabling a new vibrant ecosystem of tools and integrations</li>
+            <li><b>Backwards-compatible</b> - so that the existing code can drive value for years to come</li>
+          </ul>
+          <h4 class="small-margin">Becoming part of a foundation</h4>
+          <p class="subtle-margin">
+            <b>We completed all documents required for OpenTF to become part of the Linux Foundation</b> with the end goal of having <b>OpenTF as part of Cloud Native Computing Foundation</b>. By making a foundation responsible for the project, we will ensure the tool stays truly open-source and vendor-neutral.
+          </p>
+          <p class="subtle-margin">
+            If Terraform wasn’t open-source from the beginning, many of the tools that you are using right now for your Terraform workflows simply wouldn’t exist, thus, we believe the future for Terraform is OpenTF, developed fully in the open.
+          </p>
+          <h4 class="small-margin">Roadmap</h4>
+          
+          <p class="subtle-margin">
+            As previously outlined, we’ve been working on this fork for a number of days already, with over 10 engineers across multiple companies working on it.
+          </p>
+          <p class ="subtle-margin">
+            <b>In short, here’s the current status</b>:
+          </p>
+          <ul>
+            <li>Almost done with the repository-wide rename to OpenTF</li>
+            <li>Selected initial steering committee members</li>
+            <li>Performed initial adjustments and cleanup of community documents.</li>
+            <li>Got CI/CD pipelines and multiple testing harnesses of end-to-end and snapshot tests to work and be green, to make sure that we stay backwards-compatible.
+            </li>
+          </ul>
+          <p class="subtle-margin">
+            <b>Expect the repository to be published very soon</b>, once we’re officially part of a foundation and have some basic community guardrails and processes in place.
+          </p>
+          <p class="subtle-margin">
+            <b>You might wonder why we already started work on this project so early?</b> It’s quite simple, really. If HashiCorp were to reverse their decision, worst case we’d just lose a week of work. But if, and that is what indeed happened, HashiCorp wasn’t to reverse their decision, we didn’t want to lose any time, so that <b>we could have a working OpenTF 1.6.0 release ready for you as soon as possible</b>. And that’s why we started work on this over a week ago.
+          </p>
+          <p class="subtle-margin">
+            In the spirit of being as open as possible, <b>we’ve created a</b> <a href="https://github.com/opentffoundation/roadmap/milestones">public repository tracking our progress towards important milestones.</a> You can subscribe to the issues there to be notified as soon as the fork is public. If you have any questions, feel free to create additional issues on that repository - we’ll try to respond as quickly as possible.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        <p class="subtle-margin">
+          <b>When will I be able to see the fork?</b>
+        </p>
+        <p class="subtle-margin">
+          We’re planning to publish the fork in the next 1-2 weeks. That doesn’t mean there will be a release by then, but the repository will be open. Releases (alpha and stable) should follow shortly.
+        </p>
+        <p class="top-margin">
+          <b>Will I be able to use OpenTF as a drop-in replacement for legacy Terraform?</b>
+        </p>
+        <p class="subtle-margin">
+          Yes
+        </p>
+        <p class="top-margin">
+          <b>Will OpenTF work with all the providers and modules Terraform works with?</b>
+        </p>
+        <p class="subtle-margin">
+          Yes
+        </p>
+        <p class="top-margin">
+          <b>What will be the first release of OpenTF?
+          </b>
+        </p>
+        <p class="subtle-margin">
+          The first release will be 1.6.0-alpha, forked from the most recent commit that was still MPL-licensed.
+        </p>
+        <p class="top-margin">
+          <b>Who is maintaining OpenTF? Is there enough firepower behind the project?</b>
+        </p>
+        <p class="subtle-margin">
+          So far, four companies pledged the equivalent of 14 full-time engineers (FTEs) to the OpenTF initiative. We expect this number to at least double in the following few weeks. To give you some perspective, Terraform was effectively maintained by about 5 FTEs from HashiCorp in the last 2 years. If you don’t believe us, look at their repository.
+        </p>
+        <p class="top-margin">
+          <b>How can I contribute to OpenTF?</b>
+        </p>
+        <p class="subtle-margin">
+          If you’d like to pledge resources as a company, please get in touch via email or PR on the manifesto repository. Otherwise, the best way to contribute right now is to spread the word! Once the repository is public and we have a contribution process in place, you’ll be able to do code contributions.
+        </p>
+        <p class="top-margin">
+          <b>Does OpenTF have a public roadmap? Can I affect it?</b>
+        </p>
+        <p class="subtle-margin">
+          You can find current public roadmap on this <a href="https://github.com/opentffoundation/roadmap/milestones">GitHub repository</a>. We will put an RFC process in place for you to be able to contribute to the roadmap as soon as possible.
+        </p>
+        <p class="top-margin">
+          <b>Will OpenTF be compatible with future Terraform releases?</b>
+        </p>
+        <p class="subtle-margin">
+          OpenTF will be 100% interoperable with future Terraform releases until the community wishes otherwise.
+        </p>
+        <p class="top-margin">
+          <b>Can OpenTF change its licensing model in the future?</b>
+        </p>
+        <p class="subtle-margin">
+          Once OpenTF becomes part of the foundation, it’s governed by the foundation and the project community. Its licensing model cannot change.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
