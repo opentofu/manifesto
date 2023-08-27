@@ -25,11 +25,11 @@ body {
   line-height: 1.75;
   padding-top: 0rem;
   padding-bottom: 2rem;
-  margin-top: 0;
+  margin: 0;
 }
 
 div.container {
-  padding: 0 0.5em 0 0.5em;
+  padding: 0 1rem 0 1rem;
 }
 
 p {
@@ -384,7 +384,7 @@ span {
   background-color: #8a2be2;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.75rem 0.5rem;
   font-size: 20px;
   text-decoration: none;
   transition: background-color 0.3s ease;
