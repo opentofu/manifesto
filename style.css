@@ -140,6 +140,8 @@ a:hover {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+
+
 .resp-sharing-button__icon svg {
   width: 1em;
   height: 1em;
@@ -170,6 +172,7 @@ a:hover {
 
 .resp-sharing-button--twitter:hover {
   background-color: #2795e9;
+  transform: scale(1.1);
 }
 
 .resp-sharing-button--pinterest {
@@ -202,6 +205,7 @@ a:hover {
 
 .resp-sharing-button--reddit:hover {
   background-color: #3a80c1;
+  transform: scale(1.1);
 }
 
 .resp-sharing-button--google {
@@ -218,6 +222,7 @@ a:hover {
 
 .resp-sharing-button--linkedin:hover {
   background-color: #046293;
+  transform: scale(1.1);
 }
 
 .resp-sharing-button--email {
@@ -251,6 +256,7 @@ a:hover {
 .resp-sharing-button--hackernews:hover,
 .resp-sharing-button--hackernews:focus {
   background-color: #fb6200;
+  transform: scale(1.1);
 }
 
 .resp-sharing-button--vk {
