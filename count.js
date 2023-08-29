@@ -2,6 +2,7 @@ window.onload = function() {
     let counts = {
         'Company': 0,
         'Project': 0,
+        'Foundation': 0,
         'Individual': 0
     };
 
@@ -18,5 +19,6 @@ window.onload = function() {
     
     document.querySelector('#companyOutput .count').textContent = counts['Company'];
     document.querySelector('#projectOutput .count').textContent = counts['Project'];
+    document.querySelector('#foundationOutput .count').textContent = counts['Foundation'];
     document.querySelector('#individualOutput .count').textContent = counts['Individual'];
 };
