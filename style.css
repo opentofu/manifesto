@@ -17,7 +17,6 @@ html {
 /*16px*/
 
 body {
-  background: white;
   color: rgb(75 85 99);
 
   font-family: 'Montserrat', sans-serif;
@@ -27,7 +26,13 @@ body {
   padding-bottom: 2rem;
   margin: 0;
 }
-
+.light {
+  background: white;
+}
+.dark{
+  background: #000;
+  color: #fff
+}
 div.container {
   padding: 0 1rem 0 1rem;
 }
@@ -388,7 +393,7 @@ span {
   font-style: italic;
 }
 
-.purple-banner {
+/* .purple-banner {
   display: block;
   background-color: #8a2be2;
   color: white;
@@ -397,13 +402,34 @@ span {
   font-size: 20px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-}
+} */
 
-.purple-banner:hover {
+.banner:hover {
   background-color: purple;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.banner {
+  display: flex;
+  background-color: #8a2be2;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+position: sticky;
+top:0;
+  .theme-switch,
+  .purple-banner {
+    text-align: center;
+    color: white;
+  }
+  .theme-switch{
+    margin-left: 1rem;
+  }
 }
