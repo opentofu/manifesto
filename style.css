@@ -103,6 +103,14 @@ h5 {
   font-size: 1.2rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.tight-list li {
+  line-height:  25px;
+}
+
 small,
 .text_small {
   font-size: 0.833rem;
