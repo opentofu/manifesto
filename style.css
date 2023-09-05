@@ -117,23 +117,25 @@ h5 {
 }
 
 .emoji-list li {
-  padding-left: 3.5rem;
-  text-indent: -1.8rem;
+  padding-left: 2.5rem;
+  text-indent: -1.5rem;
+}
+
+.emoji-list li::before {
+  margin-right:  0.3rem;
+  font-size:  12px;
 }
 
 .done-list li::before {
   content: "✅ ";
-  margin-right:  0.3rem;
 }
 
 .in-progress-list li::before {
   content: "🔄 ";
-  margin-right:  0.3rem;
 }
 
 .coming-soon-list li::before {
   content: "⏳ ";
-  margin-right:  0.3rem;
 }
 
 small,
