@@ -111,6 +111,31 @@ h5 {
   line-height:  25px;
 }
 
+.emoji-list {
+  list-style: none;
+  padding: 0;
+}
+
+.emoji-list li {
+  padding-left: 3.5rem;
+  text-indent: -1.8rem;
+}
+
+.done-list li::before {
+  content: "✅ ";
+  margin-right:  0.3rem;
+}
+
+.in-progress-list li::before {
+  content: "🔄 ";
+  margin-right:  0.3rem;
+}
+
+.coming-soon-list li::before {
+  content: "⏳ ";
+  margin-right:  0.3rem;
+}
+
 small,
 .text_small {
   font-size: 0.833rem;
