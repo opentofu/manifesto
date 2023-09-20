@@ -1,12 +1,12 @@
-# OpenTF Manifesto
+# OpenTofu Manifesto
 
-OpenTF's goal is to ensure Terraform remains truly open source and proposes returning it to a fully open license. We urge HashiCorp to reconsider and switch Terraform back to an open source license, avoiding fragmentation of the community.
+OpenTofu's goal is to ensure Terraform remains truly open source and proposes returning it to a fully open license. We urge HashiCorp to reconsider and switch Terraform back to an open source license, avoiding fragmentation of the community.
 
-For further details and the full text of the manifesto, you can visit the [OpenTF website](https://opentf.org).
+For further details and the full text of the manifesto, you can visit the [OpenTofu website.](https://opentofu.org/).
 
-## The OpenTF fork
+## The OpenTofu fork
 
-The OpenTF repo is now publicly available at https://github.com/opentffoundation/opentf. For more context on the current status of the fork, the roadmap, and the path to a stable release, see https://opentf.org/fork.
+The OpenTofu repo is now publicly available at https://github.com/opentofu/opentofu. For more context on the current status of the fork, the roadmap, and the path to a stable release, see https://opentofu.org/fork.
 
 ## Contact
 
