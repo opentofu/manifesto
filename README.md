@@ -6,7 +6,7 @@ For further details and the full text of the manifesto, you can visit the [OpenT
 
 ## The OpenTF fork
 
-The OpenTF repo is now publicly available at https://github.com/opentffoundation/opentf. For more context on the current status of the fork, the roadmap, and the path to a stable release, see https://opentf.org/fork.
+The OpenTF repo is now publicly available at [https://github.com/opentofu/opentofu](https://github.com/opentofu/opentofu). For more context on the current status of the fork, the roadmap, and the path to a stable release, see https://opentf.org/fork.
 
 ## Contact
 
