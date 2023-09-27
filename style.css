@@ -103,6 +103,41 @@ h5 {
   font-size: 1.2rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.tight-list li {
+  line-height:  25px;
+}
+
+.emoji-list {
+  list-style: none;
+  padding: 0;
+}
+
+.emoji-list li {
+  padding-left: 2.5rem;
+  text-indent: -1.5rem;
+}
+
+.emoji-list li::before {
+  margin-right:  0.3rem;
+  font-size:  12px;
+}
+
+.done-list li::before {
+  content: "✅ ";
+}
+
+.in-progress-list li::before {
+  content: "🔄 ";
+}
+
+.coming-soon-list li::before {
+  content: "⏳ ";
+}
+
 small,
 .text_small {
   font-size: 0.833rem;
@@ -334,6 +369,12 @@ a:hover {
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  .share-social-media {
+    flex-direction: column;
+  }
+}
+
 .co-signed {
   width: 100%;
 }
@@ -360,6 +401,7 @@ figure blockquote {
 
 span {
   margin-right: 20px;
+  min-width: 0;
 }
 
 .count {
