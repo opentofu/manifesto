@@ -11,3 +11,9 @@ The OpenTF repo is now publicly available at https://github.com/opentffoundation
 ## Contact
 
 If you have questions or feedback to share, you can reach the team behind this manifesto by emailing us at [pledge@opentf.org](mailto:pledge@opentf.org).
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/opentffoundation/manifesto.svg)](https://starchart.cc/opentffoundation/manifesto)
+
